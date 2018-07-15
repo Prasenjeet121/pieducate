@@ -1,0 +1,196 @@
+*{
+    margin:0;
+
+}
+.chapterListHolder {
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.chapterMain{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.chapterList {
+    
+    width: 380px;
+    -webkit-box-shadow: 0px 0px 38px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 38px -9px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 38px -9px rgba(0,0,0,0.75);
+margin:30px 10px 30px 10px;
+}
+.chapterList .header {
+    position: relative;
+}
+.chapterList .imgHolder img{
+   height:240px;
+   width:380px;
+}
+.chapterList .favHolder {
+    position: absolute;
+    bottom: -19px;
+    right: 0;
+    padding:0px 15px 0px 0px;
+}
+.chapterList .timeHolder span{
+    margin-left: 5px;
+}
+.chapterList .timeHolder {
+    color:rgb(34, 49, 39);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color:cyan;
+    padding:1px 3px 1px 3px;
+    
+}
+.chapterList .favHolder img{
+    height:40px;
+    width:40px;
+}
+
+.chapterList .chapterName {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    word-wrap: wrap none;
+    padding: 15px 5px 10px 10px;
+    color:rgb(87, 87, 87);
+}
+.chapterList .watchLaterAndStart{
+    display: flex;
+    align-items: center;
+   
+}
+.chapterList .watchLater {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.chapterList .watchLater span{
+    border:0;
+    display: flex;
+    align-items: center;
+    background-color: royalblue;
+    padding:5px 14px 5px 14px;
+    color:white;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin:10px 0px 10px 10px;
+}
+.chapterList .watchLater span i{
+    padding-right: 10px;
+}
+.chapterList .watchLater span:hover{
+    background-color: rgb(83, 122, 240);
+    cursor: pointer;
+    
+}
+.chapterList .start span:hover{
+
+    background-color: rgb(83, 122, 240);
+    cursor: pointer;
+    
+}
+.chapterList .start span{
+    border:0;
+    display: flex;
+    align-items: center;
+    background-color: royalblue;
+    padding:5px 14px 5px 14px;
+    color:white;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin:10px 10px 10px 0px;
+    cursor: pointer;
+}
+.chapterList .start span i{
+    padding-right: 10px;
+}
+.chapterList .start {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.backButtonHolder {
+    width:80%;
+    margin:0 auto;
+    padding:15px 10px 15px 0px;
+}
+.backButtonHolder .backButton img{
+    height:29px;
+}
+
+.labelsHolder {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.labelsHolder .labels {
+    
+    border-radius: 20px 0px 0px 20px;
+   
+    
+}
+.labelsHolder .labels:nth-child(even){
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color:black;
+    margin:2px 5px 2px 5px;
+    color: royalblue;
+    padding:2px 15px 2px 15px;
+    border-radius: 0px 100px 100px 0px;
+    border:1px solid  royalblue;
+
+}
+.labelsHolder .labels:nth-child(odd){
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+    margin:2px 5px 2px 5px;
+    color: #FF9900;
+    padding:2px 15px 2px 15px;
+    border-radius: 0px 100px 100px 0px;
+    border:1px solid #FF9900;
+
+
+}
+
+
+
+@media (max-width : 870px){
+    .chapterList .imgHolder img{
+         width: 100%;
+         height:auto;
+     }
+     .chapterList{
+         width:98%;
+         margin:25px 0px 25px 0px;
+         padding:0;
+         
+     }
+     .chapterListHolder {
+         width:98%;
+     }
+     .chapterMain{
+         width:98%;
+
+     }
+}

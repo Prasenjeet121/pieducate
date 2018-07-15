@@ -1,0 +1,391 @@
+*{
+    margin:0;
+}
+nav.header{
+   height:100px;
+   background-color: #1C272B;
+   display: flex;
+   align-items: center;
+
+}
+.leftHeader {
+ flex-grow: 1;
+   display: flex;
+   align-items: center;
+   padding:0px 0px 0px 15px;
+}
+.leftHeader img{
+    height:55px;
+    width:55px;
+}
+.rightHeader{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+.rightHeader span{
+    padding: 0px 10px 0px 0px;
+}
+.adminAreaText{
+    color:white;
+    font-weight: 600;
+
+}
+.gear img{
+    height: 35px;
+    width:35px;
+}
+.menu img{
+   height: 35px;
+   width:35px;
+}
+.menu{
+    margin:0px 10px 0px 35px;
+}
+
+.plusSignHolder{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0px 25px 25px 0px;
+    z-index: 1;
+}
+.plusSign img{
+    height:55px;
+    width:55px;
+}
+.slideUpMenu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #E8E8E8;
+    z-index: 2;
+    display: none;
+
+}
+.croxxHolder {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px ;
+}
+.coxxC img{
+    height:35px;
+    width:35px;
+
+}
+.coxxC{
+    padding:20px;
+}
+.slideUpMenu div{
+    padding:15px 0px 15px 15px;
+}
+.slideUpMenu img{
+    height:35px;
+    width:55px;
+}
+.text{
+    padding: 0px 0px 0px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.croxxHolder img{
+    height:30px !important;
+    width:30px !important;
+}
+
+
+
+
+.leftClassWrapper h3 span{
+   
+   font-weight: bold;
+   color:royalblue;
+   border-bottom: 1px solid gray;
+    padding:0px 55px 5px 0px;
+   
+   
+}
+
+
+.createClassHolder{
+    
+    display: flex;
+    flex-wrap: wrap-reverse;
+    position: fixed;
+    z-index: 3;
+    height:100%;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:0;
+    width:100%;
+    background-color: rgb(235, 235, 235, 0.7) ;
+    
+    
+}
+.leftClass{
+    flex-grow: 1;
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.rightClass{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+}
+.croxxAndLabel{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.inputHolderC .buttonC input{
+    display: inline-block;
+    border: 0;
+    background-color: royalblue;
+    color: white;
+    font-weight: 600;
+    padding:8px 20px 8px 20px;
+    text-transform: uppercase;
+
+}
+.inputHolderC .buttonC{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 0px 0px 0px;
+}
+
+.inputHolderC .classNameIn{
+    width:510px;
+    height:40px;
+    font-size: 18px;
+    color:royalblue;
+    font-weight: 500;
+    padding:0px 0px 0px 10px;
+    text-transform: uppercase;
+}
+.classList{
+  margin: 20px 0px 20px 0px;
+}
+.classList .logo img{
+    height:35px;
+    width:55px;
+}
+.classList .textHolderC{
+    font-weight: 600;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.createClassWrapper{
+    display: none;
+    
+}
+
+
+/*   here is subject creation */
+
+.createSubHolder{
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap-reverse;
+    height: 100%;
+    width:100%;
+    background-color: rgb(199, 195, 195,0.7);
+    z-index: 3;
+    top:0;
+    
+    
+}
+.headerList{
+    display: flex;
+    justify-content: flex-start;
+    padding:0px 0px 10px 10px;
+    
+}
+.headerList span{
+    border-bottom: 1px solid rgb(109, 107, 107);
+    font-weight: bold;
+    padding-right: 45px;
+    padding-bottom: 4px;
+    color:royalblue;
+    text-transform: uppercase;
+
+}
+.createSUbjectWrapper{
+    display: none;
+}
+
+
+.leftSub{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+
+}
+.rightSub{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    
+}
+.subList{
+    margin:15px 0px 15px 15px;
+}
+.subList .logoSub img{
+    height:35px;
+    width:45px;
+    margin-right: 10px;
+}
+.subList .textSub {
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.croxxHolderSub{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:20px;
+}
+.croxxHolderSub .croxx img{
+    height:35px;
+    width:35px;
+}
+.subjectNameInput{
+    width:350px;
+    height:45px;
+    font-weight: 600;
+    color:royalblue;
+    padding-left: 15px;
+    text-transform: uppercase;
+
+}
+#subListExit{
+    display: block;
+    width:350px;
+    height:45px;
+    margin:20px 0px 10px 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 15px;
+
+}
+.createSubButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.createSubBut{
+    border:0;
+    padding:9px 15px 9px 15px;
+    background-color: royalblue;
+    color:white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+/* chapter creation is here */
+
+
+.chapterCreationHolder {
+    width:80%;
+    margin:0 auto;
+    margin-top:45px;
+}
+
+.inputHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputHolder input{
+    width:100%;
+    height:45px;
+    color:cornflowerblue;
+    font-weight: 500;
+    padding:0px 0px 0px 5px;
+}
+.inputHolder .createChap {
+    border:0;
+    padding:10px 15px 10px 15px ;
+    color:white;
+    background-color: cornflowerblue;
+    margin:0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.createdChapterHolder {
+    margin-top: 50px;
+}
+.headerChapC .imgHolderAndHeading .imgChapter img{
+    max-width: 100%;
+    height:auto;
+}
+
+.headerChapC .imgHolderAndHeading{
+   position: relative;
+   display: inline-block;
+    
+}
+.headerChapC .nameChapterHolder {
+    position: absolute;
+    top:0;
+    color:red;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 600;
+    background-color: rgb(151, 150, 150, 80%);
+}
+.bodyChapC{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+@media(max-width:820px){
+    .rightSub{
+        justify-content: center;
+        align-items: center;
+        padding-top: 45px;
+    }
+    .inputHolderC .classNameIn{
+        width:300px;
+    }
+    .rightClass{
+        padding-top: 75px;
+        justify-content: center;
+    }
+    
+
+}
